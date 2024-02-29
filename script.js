@@ -24,3 +24,21 @@ $( document ).ready(function() {
     }
    
 });
+ 
+// Obtén el botón por su ID
+ var SanValentinButton = document.getElementById("SanValentin");
+
+ // Agrega un evento de clic al botón
+ SanValentinButton.addEventListener("click", function() {
+     // Redirige a la página deseada (cambia "tu_pagina.html" por la URL de la página a la que quieres redirigir)
+     window.location.href = "sanvalentin.html";
+ });
+
+ // Obtén el botón por su ID
+ var sobrepiensoButton = document.getElementById("sobrepienso");
+
+ // Agrega un evento de clic al botón
+ sobrepiensoButton.addEventListener("click", function() {
+     // Redirige a la página deseada (cambia "tu_pagina.html" por la URL de la página a la que quieres redirigir)
+     window.location.href = "sobrepensamiento.html";
+ });
